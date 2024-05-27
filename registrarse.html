@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse - NOMBRE JUEGO</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="icon/faviconarriba.jpg" type="image/x-icon"> 
+</head>
+<body id="registrarse">
+    <!-- Menú superior -->
+    <header>
+        <img class="logo" src="icon/faviconfenix.png" alt="Logo">
+        <button class="abrir-menu" id="abrir"> <img class="entrar" src="icon/menu.png" alt="entrar"></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><img class="salir" src="icon/salir.png" alt="salir"></button>
+            <div class="menu">
+            <ul class="nav-lista">
+                <li><a href="index.html#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="index.html#noticias">Noticias</a></li>
+                 <li><a href="index.html#personajes">Personajes</a></li>
+                 <li><a href="index.html#juegos">Juegos</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </div>
+            <div class="autolinks">
+                <a href="iniciarSesion.html">Inicio de Sesión</a>
+                <a href="registrarse.html">Registrar</a>
+            </div>
+    
+        </nav>
+       </header>
+    <div class="forma">
+        <form class="formulario">
+            <h1 id="ttl">REGISTRARSE</h1>
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <img class="icono" src="icon/correo.png" alt="Usuario">
+                    <h3 id="ttl3">Nombre Completo:</h3>
+                    <input type="text" placeholder="Nombre Completo">
+                </div>
+                <div class="input-contenedor">
+                    <img class="icono" src="icon/ce.png" alt="Correo Electrónico">
+                    <h3 id="ttl3">Correo Electrónico:</h3>
+                    <input type="text" placeholder="Correo Electrónico">
+                </div>
+                <div class="input-contenedor">
+                    <img class="icono" src="icon/contraseña.png" alt="Contraseña">
+                    <h3 id="ttl3">Contraseña:</h3>
+                    <input type="password" placeholder="Contraseña">
+                </div>
+                <div class="input-contenedor">
+                    <img class="icono" src="icon/confirmarcontraseña.png" alt="Confirmar Contraseña">
+                    <h3 id="ttl3">Confirmar Contraseña:</h3>
+                    <input type="password" placeholder="Confirmar Contraseña">
+                </div>
+                <p>Al iniciar sesión, acepta nuestras condiciones de uso y Política de Privacidad.</p>
+                <input type="submit" value="CREAR CUENTA" class="button">
+                <p>¿Ya tienes cuenta? <a href="iniciarSesion.html">Identifícate</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

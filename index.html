@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"La profecía del fénix” | Web Oficial | Open System Gaming</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="icon/faviconarriba.jpg" type="image/x-icon"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body id="index">
+    <!-- Menú superior -->
+   <header>
+    <img class="logo" src="icon/faviconfenix.png" alt="Logo">
+    <button class="abrir-menu" id="abrir"> <img class="entrar" src="icon/menu.png" alt="entrar"></button>
+    <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar"><img class="salir" src="icon/salir.png" alt="salir"></button>
+        <div class="menu">
+        <ul class="nav-lista">
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#noticias">Noticias</a></li>
+             <li><a href="#personajes">Personajes</a></li>
+             <li><a href="#juegos">Juegos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+        <div class="autolinks">
+            <a href="iniciarSesion.html">Inicio de Sesión</a>
+            <a href="registrarse.html">Registrar</a>
+        </div>
+
+    </nav>
+   </header>
+    <!-- Secciones de la página -->
+  <!--imagen-->
+        <div class="container2"> </div>
+    <!--div juego-->
+    <div class="nombrejuego">
+        <h1>La Profecía del Fénix</h1> 
+        </div> 
+        <!--div principal-->
+    <div class="azul">
+        <!--div inicio-->
+        <section class="textoinicio">
+            <h3>FECHA DE LANZAMIENTO: <p>xx/xx/xxxx</p></h3> 
+            <h3>GÉNERO:<p>rol, mundo abierto</p></h3> 
+            <h3>DESARROLLADO POR: <p>G4 Technology</p></h3>
+        </section>
+
+        <!--div somos-->
+        <div class="titulosomos" id="quienes-somos"> <h1>QUIENES SOMOS</h1></div>
+        <section class="somos">
+          <div class="textosomos">
+            <p>En Open System Gaming, brindamos experiencias de juego excepcionalesa través de soluciones innovadoras y tecnologías de vanguardia. 
+                Nuestro equipo, compuesto por expertos en diseño y desarrollo, se compromete a crear productos de alta calidad adaptados a las
+            necesidades de nuestros clientes.</p>
+            <p>Fomentamos la inclusión y diversidad, creando un entorno donde todos se sientan representados.Estamos constantemente adaptándonos a 
+                las tendencias emergentes para ofrecer juegos relevantes y emocionantes.</p>
+            <p>Únete a Open System Gaming y descubre cómo estamos revolucionando el mundo del gaming.</p>
+            </div>
+            <img class="imagensomos" src="img/fenixinicio.jpg">
+        </section>
+        <hr class="barra">
+        <!--div noticias-->
+   <div class="titulonoticia" id="noticias">
+        <h1>NOTICIAS</h1> 
+    </div> 
+        <section class="noticias">
+            <!--Primera carta-->
+            
+            <div class="container3">
+                <div class="card" style="--clr: #009688;">
+                <div class="imgBx">
+                    <img src="img/noticiauno.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>El Épico Juego "Reino en Llamas" Anuncia su Fecha de Lanzamiento</h2>
+                    <p>Firestorm Studios revela la fecha de lanzamiento de "Reino 
+                    en Llamas", un juego de rol ambientado en un reino medieval 
+                    envuelto en llamas. Únete al combate como un valiente 
+                    caballero y lucha contra dragones incendiarios. Disponible 
+                    el 1 de diciembre de 2024 en todas las plataformas principales.</p>
+                </div>
+                </div>
+                <div class="card" style="--clr: #009688;">
+                <div class="imgBx">
+                    <img src="img/noticiados.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>"El Guardián del Fuego Eterno" Revoluciona el Género de Fantástica</h2>
+                    <p>Phoenix Forge Games redefine la fantasía con "El Guardián del Fuego Eterno". 
+                    Sumérgete en un mundo de volcanes y fuego, donde un guerrero elemental debe 
+                    dominar el poder del fuego para restaurar el equilibrio. Disponible en enero 
+                    de 2025 para consolas y PC, promete una experiencia de combate envolvente.</p>
+                </div>
+                </div>
+                </div>
+     <!--mas noticias-->
+     <div class="masnoticias">
+        <p>Cyberpunk 2077: Phantom Liberty' recibe una actualización que mejora la 
+           estabilidad y rendimiento del juego.
+        </p>
+        <p>La desarrolladora indie Dream Forge anuncia un juego de aventuras gráficas
+           que promete revolucionar el género.
+        </p>
+        <p>Fortnite' lanza un crossover con de películas de acción, presentando personajes 
+           y escenarios icónicos.
+         </p>
+        <p>El videojuego multijugador 'Galactic Warriors' agrega funciones de juego
+           cruzado entre plataformas, ampliando su comunidad.
+        </p>
+
+     <div class="link"><a href="https://vandal.elespanol.com/noticias/videojuegos" target="_blank">Ver más noticias</a></div>
+    </div>  
+        
+        </section>
+        <hr class="barra">
+        <!--div personajes-->  
+        <div class="titulopersonajes" id="personajes"> 
+        <h1>PERSONAJES</h1>
+        </div>  
+        <section class="personajes">
+            <div id="carrusel">
+                <div class="flecha" onclick="moverIzquierda()"><img src="img/flechaizquierda.png" alt=""></div>
+                <div>
+                  <!-- Añade aquí tus personajes con divs o cualquier otro elemento HTML -->
+                  <div class="personaje"><img src="img/rayo.png.webp" alt=""><h3>Rayo Volante<p>Un hábil espadachín con una velocidad impresionante, conocido por sus ataques precisos y su capacidad para anticipar los movimientos enemigos.</p></h3></div>
+                  <div class="personaje"><img src="img/mago.png" alt=""><h3>Eldorin el Sabio<p>Un anciano mago con una larga barba blanca y un sombrero. Es conocido por su sabiduría  y su profundo conocimiento de los secretos arcanos. Siempre dispuesto a ayudar a aquellos que buscan la verdad.</p></h3></div>
+                  <div class="personaje"><img src="img/guerrero.png" alt=""><h3>El Guerrero Forjado <p> Un coloso de armadura imponente y un corazón endurecido. Es un guerrero indomable que lucha por la justicia en un mundo lleno de caos. Su espada es tan afilada como su ingenio, y su lealtad es inquebrantable.</p></h3></div>
+                  <div class="personaje"><img src="img/guerrera.png" alt=""><h3>Lyra la Cazadora<p>Una guerrera intrépida con ojos penetrantes y una habilidad con el arco y flecha. Lyra ha jurado proteger su reino de las fuerzas oscuras. Su valentía y determinación son legendarias.</p></h3></div>
+                  <div class="personaje"><img src="img/elfa.png" alt=""><h3>Lunaerrante<p>Una elfa que viaja por los bosques. Experta en el arte de la arquería y la magia. Se comunica con los espíritus, y su arco encantado dispara flechas con la energía de la luna.</p></h3></div>
+                  <!-- ... -->
+                </div>
+                <div class="flecha" onclick="moverDerecha()"><img src="img/flechaderecha.png" alt=""></div>
+              </div>
+        </section>
+        <!--div expansiones-->
+        <div class="tituloexpansiones">
+         <h1>EXPANSIONES</h1>   
+        </div>
+        <section class="expansiones">
+            <div class="container">
+                <div><img src="img/expansion1.png" alt=""><span>El Reino Perdido de Valoria</span></div>
+                <div><img src="img/expansion2.jpg" alt=""><span> La Ciudadela de Hierro</span></div>
+                <div><img src="img/expansion3.png" alt=""><span>El Imperio Subterráneo</span></div>
+
+                <div><img src="img/expansion4.png" alt=""><span>Los Dominios del Dragón</span></div>
+                <div><img src="img/expansion5.png" alt=""><span>El Desierto de las Sombras</span></div>
+                <div><img src="img/expansion6.png" alt=""><span>El Imperio Subterráneo</span></div>
+            </div>   
+            <hr class="barra">
+            <div><span id="masinformacion" class="informacion">Más información</span></div>
+
+            <div id="contenido-adicional" class="oculto">
+                <p><h3>El Reino Perdido de Valoria:</h3>
+                    Descubre el Reino Perdido de Valoria, una antigua civilización sumergida en un
+                     misterioso bosque encantado. Los jugadores deberán desentrañar los secretos de
+                      esta tierra olvidada, enfrentarse a criaturas mágicas y encontrar artefactos
+                    perdidos que podrían cambiar el destino del mundo.</p>
+                <p><h3>La Ciudadela de Hierro:</h3>
+                    Aventúrate en la impenetrable Ciudadela de Hierro, una fortaleza 
+                    militar llena de máquinas de guerra y soldados endurecidos. Los 
+                    jugadores deberán infiltrarse y derrocar al tiránico general que 
+                    gobierna con puño de hierro.</p>
+                <p><h3>El Abismo Sombrío:</h3>
+                    Explora las profundidades del Abismo Sombrío, un lugar oscuro 
+                    y peligroso habitado por monstruos de pesadilla. Los jugadores 
+                    deberán sobrevivir a terribles horrores y encontrar la fuente 
+                    del mal que corrompe esta región.</p>
+                <p><h3>Los Dominios del Dragón:</h3>
+                    Enfréntate a los dragones que dominan los cielos en los Dominios 
+                    del Dragón. Los jugadores deben conquistar estas bestias majestuosas 
+                    y descubrir los secretos de su origen para restaurar el equilibrio 
+                    en el mundo.</p>
+                <p><h3>El Desierto de las Sombras:</h3>
+                    Cruza el traicionero Desierto de las Sombras, donde los jugadores 
+                    se enfrentarán a bandidos y criaturas sobrenaturales mientras 
+                    buscan oasis secretos y ruinas enterradas que contienen poderosas 
+                    reliquias.</p>
+                <p><h3>El Imperio Subterráneo:</h3>
+                    Desciende al Imperio Subterráneo, una vasta red de túneles 
+                    y ciudades bajo tierra gobernadas por enanos y seres misteriosos. 
+                    Los jugadores deberán forjar alianzas y enfrentarse a peligros 
+                    desconocidos para desbloquear nuevas tecnologías y magias.</p>
+            </div>
+        </section>
+        
+        <!--div juegos-->
+        <section class="juegos" id="juegos">
+            <hr class="barra2">
+            <h1>TAMBIÉN TE PUEDE INTERESAR...</h1>
+            <div id="card-area">
+                <div class="wrapper">
+                <div class="box-area">
+                    <!--juego 1-->
+                <div class="box">
+                <img src="img/Shadowlands.jpg" alt="">
+                <div class="overlay">
+                <h3>Shadowlands: Echoes of Eternity</h3>
+                <a href="#">Book Now</a>
+                </div>
+                </div>
+                    <!--juego 3-->
+                <div class="box">
+                    <img src="img/Wyrmwood.jpg" alt="">
+                    <div class="overlay">
+                    <h3>Wyrmwood: Legends of the Forbidden Forest</h3>
+                    <a href="#">Book Now</a>
+                    </div>
+                    </div>
+                    <!--juego 4-->
+                <div class="box">
+                    <img src="img/Draconis.jpg" alt="">
+                    <div class="overlay">
+                    <h3>Draconis: Age of Titans</h3>
+                    <a href="#">Book Now</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+        </section>
+        <!--div final página-->
+        <footer class="final" id="contacto">
+
+    
+        <h3>QUIENES SOMOS</h3>
+        <h3>JUEGOS</h3>
+        <h3>PERSONAJES</h3>
+        <h3>CONTACTO</h3>
+        <p>¿Alguna pregunta? <a href="contacto.html"> "Atención al cliente"</a></p>
+
+        <div class="redes"><img src="icon/youtube.png" alt=""><img src="icon/tiktok.png" alt=""><img src="icon/instagram.png" alt=""><img src="icon/facebook.png" alt=""><img src="icon/twitter.png" alt=""></div>
+
+        </footer>
+    </div>
+
+    <!-- JavaScript para personajes -->
+    <script>
+       let indiceActual = 0; // El índice del personaje actualmente visible
+const personajes = document.querySelectorAll('.personaje'); // Todos tus personajes
+
+function actualizarPersonajes() {
+  personajes.forEach((personaje, indice) => {
+    if (indice === indiceActual) {
+      personaje.classList.add('central');
+      personaje.style.transform = 'scale(1)';
+    } else {
+      personaje.classList.remove('central');
+      personaje.style.transform = 'scale(0.6)';
+    }
+  });
+}
+
+function moverDerecha() {
+  if (indiceActual < personajes.length - 1) {
+    indiceActual++;
+    actualizarPersonajes();
+  } else {
+    // Opcional: volver al primer personaje si es el último
+    indiceActual = 0;
+    actualizarPersonajes();
+  }
+}
+
+function moverIzquierda() {
+  if (indiceActual > 0) {
+    indiceActual--;
+    actualizarPersonajes();
+  } else {
+    // Opcional: ir al último personaje si es el primero
+    indiceActual = personajes.length - 1;
+    actualizarPersonajes();
+  }
+}
+
+// Inicializar el carrusel al cargar la página
+document.addEventListener('DOMContentLoaded', actualizarPersonajes);
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    var masInformacion = document.getElementById('masinformacion');
+    var contenidoAdicional = document.getElementById('contenido-adicional');
+
+    masInformacion.addEventListener('click', function() {
+        if (contenidoAdicional.classList.contains('oculto')) {
+            contenidoAdicional.classList.remove('oculto');
+            contenidoAdicional.classList.add('visible');
+            masInformacion.textContent = 'Menos información';
+        } else {
+            contenidoAdicional.classList.remove('visible');
+            contenidoAdicional.classList.add('oculto');
+            masInformacion.textContent = 'Más información';
+        }
+    });
+});  
+    </script>
+      <script>
+    const nav = document.querySelector("#nav");
+    const abrir = document.querySelector("#abrir");
+    const cerrar = document.querySelector("#cerrar");
+
+    abrir.addEventListener("click", () => {
+    nav.classList.add("visible");
+    })   
+    cerrar.addEventListener("click", () => {
+    nav.classList.remove("visible");
+    })
+    </script>
+</body>
+</html>
